@@ -1,0 +1,19 @@
+.post{
+  background: #5555;
+  box-shadow: 0 0 5px rgba(200,200,200, 0.55);
+  padding: 10px;
+  trasition: transform 100ms ease-in-out;
+}
+
+.post:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.post img{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.post-content h1{
+  color: #ffdab9;
+}

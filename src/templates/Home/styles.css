@@ -1,0 +1,13 @@
+.container{
+  background: rgb(33,33,33);
+  min-height: 100vh;
+  color: white;
+  padding: 30px;
+}
+.btn-container{
+  height: 100px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
