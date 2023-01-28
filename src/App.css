@@ -1,0 +1,24 @@
+.container{
+  background: rgb(33,33,33);
+  color: white;
+  padding: 30px;
+}
+
+.posts{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+  gap: 30px;
+}
+.post{
+  background: #5555;
+  box-shadow: 0 0 10px rgb(200,200,200);
+  padding: 10px;
+}
+
+.post img{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.post-content h1{
+  color: #ffdab9;
+}
